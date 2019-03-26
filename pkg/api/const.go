@@ -412,6 +412,8 @@ const (
 	DefaultNonMasqueradeCIDR = "0.0.0.0/0"
 	// DefaultKubeProxyMode is the default KubeProxyMode value
 	DefaultKubeProxyMode KubeProxyMode = KubeProxyModeIPTables
+	// DefaultKubeletReadOnlyPort is the default --read-only-port value for kubelet at https://kubernetes.io/docs/reference/command-line-tools-reference/kubelet/
+	DefaultKubeletReadOnlyPort = 10255 //0 to disable
 )
 
 const (
